@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>这是一个需要封装的项目插件</title>
+    <link rel="stylesheet" href="../css/ceshi.css"/>
+    <script type="text/javascript" src="../js/jquery-1.2.6.pack.js"></script>
+    <script type="text/javascript" src="../js/jquery.imagePreview.1.0.js"></script>
+    <script>
+        $(function(){
+            $("a.preview").preview(500);
+        });
+    </script>
+    <style type="text/css">
+        html{overflow-y:scroll;}
+        a.preview,a.preview:hover{text-decoration:none;display: inline-block}
+        a.preview img{margin:20px 10px;width:100px;height:100px;border:1px solid #333333}
+    </style>
+</head>
+<body>
+<div class="zxx_out_box">
+    <div class="zxx_in_box">
+        <div class="zxx_main_con">
+            <div class="zxx_test_list">
+                <a class="preview" href="../img/7.jpg" >
+                    <img src="../img/7.jpg" />
+                </a>
+                <a class="preview" href="../img/2.png">
+                    <img src="../img/2.png" />
+                </a>
+                <a class="preview" href="../img/3.png">
+                    <img src="../img/3.png" />
+                </a>
+                <a class="preview" href="../img/4.jpg">
+                    <img src="../img/4.jpg" />
+                </a>
+                <a class="preview" href="../img/5.jpg">
+                    <img src="../img/5.jpg" />
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
